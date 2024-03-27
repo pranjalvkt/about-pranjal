@@ -40,7 +40,7 @@ const Header = () => {
                     <a href="https://www.linkedin.com/in/pranjalvkt" className="brand-icon bright-color"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                     <a href="https://www.hackerrank.com/profile/pranjalvkt" className="brand-icon bright-color"><FontAwesomeIcon icon={faHackerrank}/></a>
                     <a href="https://www.instagram.com/pranjalvkt" className="brand-icon bright-color"><FontAwesomeIcon icon={faInstagram}/></a>
-                    <a href="https://twitter.com/PranjalVKT" className="brand-icon bright-color"><FontAwesomeIcon icon={faTwitter}/></a>
+                    <a href="https://twitter.com/PranjalVKT" className="twitter brand-icon bright-color"><FontAwesomeIcon icon={faTwitter}/></a>
                 </div>
             </div>
         </div>

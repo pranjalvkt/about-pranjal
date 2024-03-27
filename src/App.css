@@ -172,8 +172,8 @@ h2 {
 
 @media (max-width: 1099px) {
   .App {
-      display: block;
-      padding: 100px;
+    display: block;
+    padding: 50px 20px;
   }
   .fixed-header {
     position: unset;
@@ -200,5 +200,23 @@ h2 {
   }
   .experiences, .projects {
     min-width: 100px;
+    padding: 20px;
+    display: block;
+  }
+  .experience-div, .project-div {
+    width: 100%; 
+  }
+  .years-div, .role, .project-name {
+    display: none;
+  }
+  #experience {
+    margin-bottom: 3rem;
+  }
+  #about {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .twitter {
+    display: none;
   }
 }

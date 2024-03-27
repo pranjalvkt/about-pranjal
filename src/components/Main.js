@@ -12,6 +12,7 @@ const Main = () => {
         <div className="main">
             <ScrollSpy>
                 <section id="about" class="" aria-label="About me">
+                    <h2 className="bright-color">About</h2>
                     <div>
                         <p className="dull-color aboutme">Back in 2018, I decided to try my hand at creating web apps and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, I specialize in web development, with a focus on optimizing performance and scalability. Notably, I led initiatives to enhance load times and user experience for a company's web application, alongside successfully migrating a complex application to ReactJS.
                         </p>
@@ -22,6 +23,7 @@ const Main = () => {
                     </div>
                 </section>
                 <section id="experience" class="" aria-label="About me">
+                <h2 className="bright-color">Experience</h2>
                     <div className="experiences">
                         <div className="years-div">
                             <p className="years v-dull-color">July 2022 - Present</p>
@@ -39,13 +41,14 @@ const Main = () => {
                         </div>
                         <div className="experience-div">
                             <h3 className="bright-color company-name">Software Engineer • GlobalLogic</h3>
-                            <h3 className="v-dull-color">Front-End Developer</h3>
+                            <h3 className="v-dull-color role">Front-End Developer</h3>
                             <p className="dull-color desc">In my role as a front-end developer, I have been instrumental in the creation and continuous enhancement of premium web applications tailored to prestigious clients such as Manchester Metropolitan University, Royal College of Arts, Selkirk College (British Columbia), and numerous others. Notably, I led the migration of a multi-page application to a single-page application leveraging ReactJS. Furthermore, I have consistently optimized the performance and scalability of web applications while prioritizing improvements in accessibility standards.</p>
                             
                         </div>
                     </div>
                 </section>
                 <section id="projects" aria-label="About me">
+                <h2 className="bright-color">Projects</h2>
                     <div className="projects">
                         <div className="project-name">
                             <img src={jobsy1} className="img-size"/>
