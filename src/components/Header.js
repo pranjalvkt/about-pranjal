@@ -13,13 +13,13 @@ const Header = () => {
                 <h1 className="">
                     <a href="/" className="username bright-color generic-hover">Pranjal Tripathi</a>
                 </h1>
-                <h2 className="bright-color">Software Engineer at <a href="https://www.globallogic.com/in/" className="bright-color generic-hover">GlobalLogic</a></h2>
+                <h2 className="bright-color">Software Engineer at <a href="https://www.globallogic.com/in/" target="blank" className="bright-color generic-hover">GlobalLogic</a></h2>
                 <p className="tagline v-dull-color">Started as an android developer but time changed me to a web developer.</p>
-                <nav className="" aria-label="In-page jump links">
+                <nav className="navbar" aria-label="In-page jump links">
                     <ul className="nav-link">
                         <li>
                             <a className="h-line bright-color" data-to-scrollspy-id="about" href="#about">
-                                <span className={selected == 'about' ? "nav-ops aboutSelect" : "nav-ops"} onClick={toggleSelected}><FontAwesomeIcon icon={faAnglesRight} />    ABOUT</span>
+                                <span className="nav-ops"><FontAwesomeIcon icon={faAnglesRight} />    ABOUT</span>
                                 {/* <span className="">ABOUT</span> */}
                             </a>
                         </li>

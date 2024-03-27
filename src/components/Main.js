@@ -13,11 +13,11 @@ const Main = () => {
             <ScrollSpy>
                 <section id="about" class="" aria-label="About me">
                     <div>
-                        <p className="dull-color aboutme">Back in 2018, I decided to try my hand at creating web apps and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of building software for an <span className="bright-color bold">start-up</span> and a <span className="bright-color bold">huge corporation</span>.
+                        <p className="dull-color aboutme">Back in 2018, I decided to try my hand at creating web apps and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, I specialize in web development, with a focus on optimizing performance and scalability. Notably, I led initiatives to enhance load times and user experience for a company's web application, alongside successfully migrating a complex application to ReactJS.
                         </p>
-                        <p className="dull-color aboutme">My main focus these days is building products for our clients at <span className="bright-color bold">GlobalLogic</span>. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I have created lots of projects which you can checkout <a className="bright-color bold generic-hover" href="#projects">here</a>.
+                        <p className="dull-color aboutme">My expertise spans full-stack development, emphasizing major feature delivery, and adherence to accessibility standards. Proficient in JavaScript, HTML/CSS, and Agile methodologies, I've received recognition for improving application performance and modernizing interfaces.
                         </p>
-                        <p className="dull-color aboutme">When I’m not at the computer, I’m usually reading, writing, singing or hanging out with my friends and family.
+                        <p className="dull-color aboutme">Outside of work, I enjoy creating personal projects and spending time with loved ones.
                         </p>
                     </div>
                 </section>
@@ -25,21 +25,23 @@ const Main = () => {
                     <div className="experiences">
                         <div className="years-div">
                             <p className="years v-dull-color">July 2022 - Present</p>
-                        </div>
-                        <div className="experience-div">
-                            <h3 className="bright-color company-name">Software Engineer • GlobalLogic</h3>
-                            <h3 className="v-dull-color">Front-End Developer</h3>
-                            <p className="dull-color desc">As a front-end developer, developed and maintained high-quality web applications for clients including Manchester Metropolitan University, Royal college of Arts, Selkirk College (British Columbia) and more. Migrated a multi-page application into single-page application using ReactJS.</p>
                             <ul className="flex-wrap">
                                 <li className="active-color skills">JavaScript</li>
                                 <li className="active-color skills">HTML</li>
                                 <li className="active-color skills">CSS</li>
                                 <li className="active-color skills">React</li>
                                 <li className="active-color skills">PHP</li>
-                                <li className="active-color skills">Wordpress</li>
+                                <li className="active-color skills">WordPress</li>
                                 <li className="active-color skills">JQuery</li>
                                 <li className="active-color skills">Bootstrap</li>
+                                <li className="active-color skills">Docker</li>
                             </ul>
+                        </div>
+                        <div className="experience-div">
+                            <h3 className="bright-color company-name">Software Engineer • GlobalLogic</h3>
+                            <h3 className="v-dull-color">Front-End Developer</h3>
+                            <p className="dull-color desc">In my role as a front-end developer, I have been instrumental in the creation and continuous enhancement of premium web applications tailored to prestigious clients such as Manchester Metropolitan University, Royal College of Arts, Selkirk College (British Columbia), and numerous others. Notably, I led the migration of a multi-page application to a single-page application leveraging ReactJS. Furthermore, I have consistently optimized the performance and scalability of web applications while prioritizing improvements in accessibility standards.</p>
+                            
                         </div>
                     </div>
                 </section>
@@ -52,8 +54,8 @@ const Main = () => {
                         </div>
                         <div className="project-div">
                             <h3 className="bright-color company-name">Job seekers Portal</h3>
-                            <p className="dull-color desc">A React based web application running over firebase, containing User and Admin story. User can register itself or login into an existing account. One can apply for a job, or save a job for later, can view how many jobs he/she has already applied and user can maintain there profile as well.</p>
-                            <p className="dull-color desc">Admin can register itself or login into an existing account. Admin can create a new job, update and delete a existing one. Admin can also view how many users have applied for a particular job.</p>
+                            <p className="dull-color desc">The project comprises a React-based web application hosted on Firebase, featuring distinct User and Admin functionalities. Users are able to register or log in to their accounts, enabling them to apply for jobs, save job listings for future reference, track the number of applications submitted, and manage their profiles.</p>
+                            <p className="dull-color desc">Administrators have separate authentication capabilities, allowing them to register or log in as an Admin. Admins possess the authority to create new job listings, update or remove existing ones as necessary. Additionally, Admins have access to view the number of user applications received for each job listing, providing valuable insights for recruitment management.</p>
                         </div>
                     </div>
                     <div className="projects">
@@ -64,11 +66,11 @@ const Main = () => {
                         </div>
                         <div className="project-div">
                             <h3 className="bright-color company-name">AppMine Software Store</h3>
-                            <p className="dull-color desc">This is a Web Application for Installing & Publishing a software. This web application is based on Node.js server (Express framework) and MongoDB (NoSQL database) at the Backend. Node.js is integrated with EJS (Embedded JavaScript) pages, and CSS (Cascading Style Sheet), JS (JavaScript) for the Frontend.</p>
-                            <p className="dull-color desc">One stop-App store for all the platforms. User can download applications hassle free without worrying about device compatibility. And Developer can register themselves and publish new application..</p>
+                            <p className="dull-color desc">TThis web application is designed to serve as a unified platform where users can both install and publish software. It is constructed using the MERN Stack, which comprises MongoDB, Express.js, React.js, and Node.js.</p>
+                            <p className="dull-color desc">Functioning as a unified app store across various platforms, users can seamlessly download applications without concerns regarding device compatibility. Furthermore, developers have the ability to register and publish new applications, facilitating efficient distribution and access to a wide range of software offerings.</p>
                         </div>
                     </div>
-                    <a href="https://github.com/pranjalvkt?tab=repositories" className="bright-color generic-hover">View Full Project Archive <FontAwesomeIcon icon={faArrowRight} /></a>
+                    <a target="blank" href="https://github.com/pranjalvkt?tab=repositories" className="bright-color generic-hover">View Full Project Archive <FontAwesomeIcon icon={faArrowRight} /></a>
                 </section>
                 
             </ScrollSpy>

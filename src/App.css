@@ -43,6 +43,7 @@ h2 {
 }
 .years-div {
   margin-right: 20px;
+  width: 150px;
 }
 
 .tagline {
@@ -98,9 +99,10 @@ h2 {
   margin-bottom: 10rem;
 }
 .experiences, .projects {
-  height: 300px;
+  height: fit-content;
   display: flex;
   padding: 20px;
+  min-width: 500px;
 }
 .experiences:hover, .projects:hover {
   background-color: rgb(21 31 57);
@@ -165,4 +167,38 @@ h2 {
 .brand-icon:hover {
   cursor: pointer;
   color : rgb(94 234 212);
+}
+
+
+@media (max-width: 1099px) {
+  .App {
+      display: block;
+      padding: 100px;
+  }
+  .fixed-header {
+    position: unset;
+  }
+  .navbar {
+    display: none;
+  }
+  .social-media {
+    margin: 10px;
+  }
+  .header {
+    width: 100%;
+    text-align: center;
+  }
+  .tagline {
+    width: auto;
+  }
+  .main {
+    width: 100%;
+    text-align: center;
+  }
+  #about {
+    width: auto;
+  }
+  .experiences, .projects {
+    min-width: 100px;
+  }
 }
