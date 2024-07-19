@@ -69,7 +69,7 @@ const Main = () => {
                         </div>
                         <div className="project-div">
                             <h3 className="bright-color company-name">AppMine Software Store</h3>
-                            <p className="dull-color desc">TThis web application is designed to serve as a unified platform where users can both install and publish software. It is constructed using the MERN Stack, which comprises MongoDB, Express.js, React.js, and Node.js.</p>
+                            <p className="dull-color desc">This web application is designed to serve as a unified platform where users can both install and publish software. It is constructed using the MERN Stack, which comprises MongoDB, Express.js, React.js, and Node.js.</p>
                             <p className="dull-color desc">Functioning as a unified app store across various platforms, users can seamlessly download applications without concerns regarding device compatibility. Furthermore, developers have the ability to register and publish new applications, facilitating efficient distribution and access to a wide range of software offerings.</p>
                         </div>
                     </div>
