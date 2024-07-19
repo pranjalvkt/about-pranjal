@@ -13,8 +13,8 @@ const Header = () => {
                 <h1 className="">
                     <a href="/" className="username bright-color generic-hover">Pranjal Tripathi</a>
                 </h1>
-                <h2 className="bright-color">Software Engineer at <a href="https://www.globallogic.com/in/" target="blank" className="bright-color generic-hover">GlobalLogic</a></h2>
-                <p className="tagline v-dull-color">Started as an android developer but time changed me to a web developer.</p>
+                <h2 className="bright-color">Senior Software Engineer at <a href="https://www.globallogic.com/in/" target="blank" className="bright-color generic-hover">GlobalLogic</a></h2>
+                <p className="tagline v-dull-color">Started as an backend developer but time changed me to a frontend developer.</p>
                 <nav className="navbar" aria-label="In-page jump links">
                     <ul className="nav-link">
                         <li>

@@ -40,7 +40,7 @@ const Main = () => {
                             </ul>
                         </div>
                         <div className="experience-div">
-                            <h3 className="bright-color company-name">Software Engineer • GlobalLogic</h3>
+                            <h3 className="bright-color company-name">Senior Software Engineer • GlobalLogic</h3>
                             <h3 className="v-dull-color role">Front-End Developer</h3>
                             <p className="dull-color desc">In my role as a front-end developer, I have been instrumental in the creation and continuous enhancement of premium web applications tailored to prestigious clients such as Manchester Metropolitan University, Royal College of Arts, Selkirk College (British Columbia), and numerous others. Notably, I led the migration of a multi-page application to a single-page application leveraging ReactJS. Furthermore, I have consistently optimized the performance and scalability of web applications while prioritizing improvements in accessibility standards.</p>
                             
